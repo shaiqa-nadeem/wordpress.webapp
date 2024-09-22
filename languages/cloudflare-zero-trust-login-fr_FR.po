@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cloudflare Zero Trust Login 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-cloudflare-zero-trust-login\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-29T11:08:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: wordpress-cloudflare-zero-trust-login\n"
+
+#. Plugin Name of the plugin
+#: cloudflare-zero-trust-login.php
+#: classes/CF0TLAdminPage.php:32
+#: classes/CF0TLAdminPage.php:33
+#: classes/CF0TLUser.php:150
+msgid "Cloudflare Zero Trust Login"
+msgstr "Cloudflare Zero Trust Login"
+
+#. Author of the plugin
+#: cloudflare-zero-trust-login.php
+msgid "Pierre PÉRONNET <pierre.peronnet@gmail.com>"
+msgstr "Pierre PÉRONNET <pierre.peronnet@gmail.com>"
+
+#. Description of the plugin
+#: cloudflare-zero-trust-login.php
+msgid "Configure login for Cloudflare Zero Trust users."
+msgstr "Configurer la connexion pour les utilisateurs de Cloudflare Zero Trust."
+
+#: classes/CF0TLAdminPage.php:20
+msgid "Settings"
+msgstr "Paramètres"
+
+#: classes/CF0TLAdminPage.php:99
+msgctxt "Header for the setting section"
+msgid "General"
+msgstr "Général"
+
+#: classes/CF0TLAdminPage.php:106
+msgctxt "Label for the setting field"
+msgid "Check to require zero trust authentication"
+msgstr "Cochez pour exiger une authentification Zero Trust"
+
+#: classes/CF0TLAdminPage.php:122
+msgctxt "Label for the setting field"
+msgid "Check to disable WordPress authentication"
+msgstr "Cochez pour désactiver l'authentification WordPress"
+
+#: classes/CF0TLAdminPage.php:130
+msgctxt "Label for the setting field"
+msgid "Check to disable logout"
+msgstr "Cochez pour désactiver la déconnexion"
+
+#: classes/CF0TLAdminPage.php:138
+msgctxt "Label for the setting field"
+msgid "Check to disable self email edition"
+msgstr "Cochez pour désactiver l'édition de l'email"
+
+#: classes/CF0TLAdminPage.php:146
+msgctxt "Label for the setting field"
+msgid "Check to use custom email field"
+msgstr "Cochez pour utiliser un champ email personnalisé"
+
+#: classes/CF0TLAdminPage.php:154
+msgctxt "Label for the setting field"
+msgid "Automatically create user if not found"
+msgstr "Créer automatiquement l'utilisateur s'il est introuvable"
+
+#: classes/CF0TLAdminPage.php:170
+msgctxt "Label for the setting field"
+msgid "Algorithm"
+msgstr "Algorithme"
+
+#: classes/CF0TLAdminPage.php:178
+msgctxt "Label for the setting field"
+msgid "Application Audience (AUD) Tag"
+msgstr "Tag d'audience de l'application (AUD)"
+
+#: classes/CF0TLAdminPage.php:187
+msgctxt "Header for the setting section"
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: classes/CF0TLAdminPage.php:194
+msgctxt "Label for the setting field"
+msgid "Certificates key"
+msgstr "Clé des certificats"
+
+#: classes/CF0TLAdminPage.php:255
+msgid "Automatically detect algorithm."
+msgstr "Détecter automatiquement l'algorithme."
+
+#: classes/CF0TLAdminPage.php:269
+msgid "These settings are fetched from your Cloudflare team."
+msgstr "Ces paramètres sont récupérés depuis votre équipe Cloudflare."
+
+#: classes/CF0TLAdminPage.php:270
+msgid "View certificates"
+msgstr "Voir les certificats"
+
+#: classes/CF0TLAuthentication.php:99
+msgid "Failed to automatically create user"
+msgstr "Échec de la création automatique de l'utilisateur"
+
+#: classes/CF0TLAuthentication.php:148
+msgid "No Cloudflare JWT found"
+msgstr "Aucun JWT Cloudflare trouvé"
+
+#: classes/CF0TLAuthentication.php:161
+msgid "Invalid JWT, unexpected Application Audience (AUD) Tag"
+msgstr "JWT invalide, Tag d'audience de l'application (AUD) inattendu"
+
+#: classes/CF0TLUser.php:24
+msgid "CloudFlare Zero Trust email"
+msgstr "Email CloudFlare Zero Trust"
+
+#: classes/CF0TLUser.php:75
+msgid "Failed to delete the email."
+msgstr "Échec de la suppression de l'email."
+
+#: classes/CF0TLUser.php:81
+msgid "Please enter a valid email address."
+msgstr "Veuillez saisir une adresse email valide."
+
+#: classes/CF0TLUser.php:97
+msgid "Email already in use."
+msgstr "Email déjà utilisée."
+
+#: classes/CF0TLUser.php:118
+#: classes/CF0TLUser.php:129
+msgid "User not found"
+msgstr "Utilisateur introuvable"
+
+#: classes/CF0TLUser.php:133
+msgid "Multiple users found"
+msgstr "Plusieurs utilisateurs trouvés"
+
+#: classes/CF0TLUser.php:152
+msgid "Authenticated via <a href=\"https://dash.cloudflare.com\" target=\"_blank\">Cloudflare Zero Trust</a>."
+msgstr "Authentifié via <a href=\"https://dash.cloudflare.com\" target=\"_blank\">Cloudflare Zero Trust</a>."
+
+#: classes/CF0TLUser.php:155
+msgid "Email"
+msgstr "Email"
+
+#. translators: %1$s is the class name, %2$s is the email
+#: classes/CF0TLUser.php:108
+msgid "Failed to update the email to <span class=\"%1$s\">%2$s<span>."
+msgstr "Échec de la mise à jour de l'email en <span class=\"%1$s\">%2$s<span>."
+
+#: classes/CF0TLAdminPage.php:65
+msgid "The team is invalid"
+msgstr "L'équipe est invalide"
+
+#: classes/CF0TLAdminPage.php:114
+msgctxt "Label for the setting field"
+msgid "Check to require username on login"
+msgstr "Cochez pour exiger un nom d'utilisateur à la connexion"
+
+#: classes/CF0TLAdminPage.php:162
+msgctxt "Label for the setting field"
+msgid "Cloudflare Zero Trust team"
+msgstr "Équipe Cloudflare Zero Trust"
+
+#: classes/CF0TLAuthentication.php:71
+msgid "The WordPress user does not match cloudflare one"
+msgstr "L'utilisateur WordPress ne correspond pas à celui de Cloudflare"
+
+#: classes/CF0TLAdminPage.php:60
+msgid "An empty team is not allowed"
+msgstr "Une équipe vide n'est pas autorisée"

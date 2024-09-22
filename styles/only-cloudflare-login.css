@@ -1,0 +1,8 @@
+#loginform p:not(.submit),
+#loginform .user-pass-wrap {
+    display: none;
+}
+
+#loginform #wp-submit {
+    width: 100%;
+}
